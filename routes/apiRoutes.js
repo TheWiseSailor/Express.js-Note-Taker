@@ -1,33 +1,31 @@
-const router = require('express').Router();
-const { v4: uuidv4 } = require('uuid');
-const fs = require ("fs");
+// Declare router variable and store variable express.Router() and db store 
+// Require express and router
+const router = require("express").Router();
+const store = require("../db/db.json");
+const path = require('path');
+// request existing notes from the db.json file
+router.get("/notes", function (_req, res) {
+    // get notes from the db.json file
+    res.sendFile(path.join(__dirname, '../db/db.json'))
 
-// Defines the get request to this routes end point '/api/notes'
-router.get('/api/notes', async (req, res) => {
-  const dbJson = await JSON.parse(fs.readFileSync("db/db.json","utf8"));
-  res.json(dbJson);
+//  store.getNotes()
+//         // send notes if there are no errors
+//         .then(notes => res.json(notes))
+//         // send err if there is an error
+//         .catch(err => res.status(500).json(err));
 });
-
-router.post('/api/notes', (req, res) => {
-  const dbJson = JSON.parse(fs.readFileSync("db/db.json","utf8"));
-  const newFeedback = {
-    title: req.body.title,
-    text: req.body.text,
-    id: uuidv4(),
-  };
-  dbJson.push(newFeedback);
-  fs.writeFileSync("db/db.json",JSON.stringify(dbJson));
-  res.json(dbJson);
+// posting note function route
+router.post("/notes", (req, res) => {
+    console.log(req.body);
+    store.addNote(req.body)
+        .then(note => res.json(note))
+        .catch(err => res.status(500).json(err))
 });
-
-router.delete('/api/notes/:id', (req, res) => {
-  let data = fs.readFileSync("db/db.json", "utf8");
-  const dataJSON =  JSON.parse(data);
-  const newNotes = dataJSON.filter((note) => { 
-    return note.id !== req.params.id;
-  });
-  fs.writeFileSync("db/db.json",JSON.stringify(newNotes));
-  res.json("Note deleted.");
+// delete note function route
+router.delete("/notes/:id", (req, res) => {
+    store.removeNote(req.params.id)
+        .then(() => res.json({ ok: true }))
+        .catch(err => res.status(500).json(err))
 });
-
-module.exports = router; 
+// export router
+module.exports = router;

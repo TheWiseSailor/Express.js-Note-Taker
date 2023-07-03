@@ -1,7 +1,9 @@
 //putting the required modules
+
 const express = require('express');
-const apiRoutes = require('./apiRoutes');
-const htmlRoutes = require('./htmlRoutes');
+const path = require('path');
+const apiRoutes = require('./routes/apiRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
 
 //creating an instance of Express
 const app = express();
@@ -12,9 +14,19 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
+
+app.get('/notes', (req, res) => {
+  res.sendFile(path.join(__dirname, '/public/notes.html'))
+});
+app.get('/', (req, res) => {
+res.sendFile(path.join(__dirname, '/public/index.html'))
+});
+
+
+
 //creating the routes to the api and html
 app.use('/api', apiRoutes);
-app.use('/', htmlRoutes);
+//app.use('/', htmlRoutes);
 //initiation of the server
 app.listen(PORT, startServerMessage);
 
