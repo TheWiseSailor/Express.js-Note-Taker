@@ -77,7 +77,8 @@ You may contact me by rudasilljay@gmail.com
 
 
 ## Deployed Site <a name="DeployedSite"></a>
-https://thewisesailor.github.io/Express.js-Note-Taker/
+https://thewisesailor.github.io/Express.js-Note-Taker/ <br>
+https://note-taker-69-f0898b1dc611.herokuapp.com/
 ## Repository <a name="Repository"></a>
 https://github.com/TheWiseSailor/Express.js-Note-Taker
 ## Tools<a name="Tools"></a>
