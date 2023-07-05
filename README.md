@@ -90,7 +90,11 @@ Key features of the Note Taker application include:
 ## Contact <a name="contact"></a>
 You may contact me by rudasilljay@gmail.com
 ## Demo <a name="Demo"></a>
-<video src="Untitled_%20Jul%205,%202023%203_49%20PM%20(1).mp4" controls title="Title"></video>
+
+
+
+https://github.com/TheWiseSailor/Express.js-Note-Taker/assets/68026214/3c4525ee-257f-410f-a0ad-8382dbf7a478
+
 
 ## Deployed Site <a name="DeoployedSite"></a>
 https://thewisesailor.github.io/Express.js-Note-Taker/ <br>
