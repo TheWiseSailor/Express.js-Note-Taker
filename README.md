@@ -41,7 +41,7 @@
 - https://developer.mozilla.org/en-US/
 - https://www.youtube.com/
 - https://stackoverflow.com/
-- Katherinne Redford, (TUTOR)
+- Katie Redford, (TUTOR)
 
 ## License <a name="license"></a>
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -57,10 +57,14 @@ You may contact me by rudasilljay@gmail.com
 
 
   [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
+  [![Heroku](https://badgen.net/badge/icon/heroku?icon=heroku&label)](https://www.heroku.com/)
   [![Visual Studio](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)](https://visualstudio.microsoft.com)
-  [![npm](https://badgen.net/badge/icon/npm?icon=npm&label)](https://npmjs.com/)
+[![HTML](https://badgen.net/badge/icon/html5?icon=html5&label)](https://www.w3.org/html/)
+[![CSS](https://badgen.net/badge/icon/css3?icon=css3&label)](https://www.w3.org/Style/CSS/Overview.en.html)
   [![JavaScript](https://badgen.net/badge/icon/javascript?icon=javascript&label)](https://www.javascript.com/)
+  [![Express.js](https://badgen.net/badge/icon/express?icon=express&label)](https://expressjs.com/)
+  [![.gitignore](https://badgen.net/badge/icon/git?icon=git&label)](https://git-scm.com/doc)
   [![Node.js](https://badgen.net/badge/icon/nodejs?icon=nodejs&label)](https://nodejs.org/) 
- 
+   [![npm](https://badgen.net/badge/icon/npm?icon=npm&label)](https://npmjs.com/)
 
 
