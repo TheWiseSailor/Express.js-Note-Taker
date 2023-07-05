@@ -11,7 +11,9 @@
 - [Sources](#sources)🔎
 - [License](#license)💳
 - [Contact](#contact)📩
+- [Deployed Site](#DeployedSite)📂
 - [Repository](#Repository)📂
+
 - [Tools](#Tools)🛠
 
 ## Key Features <a name="key-features"></a>
@@ -74,10 +76,10 @@
 You may contact me by rudasilljay@gmail.com
 
 
-
-
+## Deployed Site <a name="DeployedSite"></a>
+https://thewisesailor.github.io/Express.js-Note-Taker/
 ## Repository <a name="Repository"></a>
-
+https://github.com/TheWiseSailor/Express.js-Note-Taker
 ## Tools<a name="Tools"></a>
 
 
