@@ -3,7 +3,7 @@
 This is a straightforward Note Taker application written using Express.js and hosted on Heroku. Users may use it to create, view, and remove notes. The program has an easy-to-use interface for keeping notes, making it suitable for both personal and professional use.
 
 ## Overview 
-```
+
 The Note Taker app provides a simple solution for digitally organizing and storing notes. Users can easily create new notes, view existing notes, and delete unwanted notes thanks to its user-friendly interface. The application is built with Express.js, a fast and minimalistic Node.js web application framework that ensures efficient and dependable performance.
 
 
@@ -13,7 +13,7 @@ Key features of the Note Taker application include:
 - Delete notes: With a single click, users can delete unwanted notes, ensuring a clutter-free and organized note-taking experience.
 
 
-```
+
 
 ## Table of Contents
 
@@ -47,7 +47,7 @@ Key features of the Note Taker application include:
 
  
 ## Usage <a name="usage"></a>
-```
+
 1. Launch the Note Taker application by visiting the deployed Heroku URL or using the local installation.
 
 2. Click on the "Get Started" button to access the notes interface.
@@ -67,7 +67,6 @@ Key features of the Note Taker application include:
 
 7. Use the navigation bar to switch between the notes interface and the landing page.
 
-```
 
 
 ## Contributing <a name="contributing"></a>
