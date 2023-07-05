@@ -4,7 +4,15 @@
 
 
 ## Table of Contents
-
+- [Key Features](#key-features)🔑
+- [Installation](#installation)💻
+- [Usage](#usage)📲
+- [Contributing](#contributing)📜
+- [Sources](#sources)🔎
+- [License](#license)💳
+- [Contact](#contact)📩
+- [Repository](#Repository)📂
+- [Tools](#Tools)🛠
 
 ## Key Features <a name="key-features"></a>
 - Create and save your notes.
