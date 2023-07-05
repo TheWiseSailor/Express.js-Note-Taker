@@ -28,7 +28,6 @@ Key features of the Note Taker application include:
 - [Contact](#contact)📩
 - [Deployed Site](#DeployedSite)🧮
 - [Repository](#Repository)📂
-
 - [Tools](#Tools)🛠
 
 ## Key Features <a name="key-features"></a>
@@ -96,7 +95,7 @@ You may contact me by rudasilljay@gmail.com
 https://github.com/TheWiseSailor/Express.js-Note-Taker/assets/68026214/3c4525ee-257f-410f-a0ad-8382dbf7a478
 
 
-## Deployed Site <a name="DeoployedSite"></a>
+## Deployed Site <a name="DeployedSite"></a>
 https://thewisesailor.github.io/Express.js-Note-Taker/ <br>
 https://note-taker-69-f0898b1dc611.herokuapp.com/
 ## Repository <a name="Repository"></a>
