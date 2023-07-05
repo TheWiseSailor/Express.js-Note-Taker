@@ -21,7 +21,7 @@ app.get('/notes', (req, res) => {
 app.get('/', (req, res) => {
 res.sendFile(path.join(__dirname, '/public/index.html'))
 });
-
+//making a note 
 
 
 //creating the routes to the api and html
