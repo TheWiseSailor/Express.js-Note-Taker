@@ -26,14 +26,14 @@ Key features of the Note Taker application include:
 - [Demo](#Demo)🎞
 - [License](#license)💳
 - [Contact](#contact)📩
-- [Deployed Site](#DeployedSite)🧮
-- [Repository](#Repository)📂
+- [Deployed Site](#deployedsite)🧮
+- [Repository](#repository)📂
 - [Tools](#Tools)🛠
 
 ## Key Features <a name="key-features"></a>
 - Create and save your notes.
 - Being able to view the saved notes that you wrote.
-- ability to be able to delete notes after you have accomplish that which needed to be done.
+- Ability to be able to delete notes after you have accomplish that which needed to be done.
 
 
 ## Installation <a name="installation"></a>
@@ -95,10 +95,10 @@ You may contact me by rudasilljay@gmail.com
 https://github.com/TheWiseSailor/Express.js-Note-Taker/assets/68026214/3c4525ee-257f-410f-a0ad-8382dbf7a478
 
 
-## Deployed Site <a name="DeployedSite"></a>
+## Deployed Site <a name="deployedsite"></a>
 https://thewisesailor.github.io/Express.js-Note-Taker/ <br>
 https://note-taker-69-f0898b1dc611.herokuapp.com/
-## Repository <a name="Repository"></a>
+## Repository <a name="repository"></a>
 https://github.com/TheWiseSailor/Express.js-Note-Taker
 ## Tools<a name="Tools"></a>
 
