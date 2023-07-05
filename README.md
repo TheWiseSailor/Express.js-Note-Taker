@@ -22,9 +22,11 @@ Key features of the Note Taker application include:
 - [Usage](#usage)📲
 - [Contributing](#contributing)📜
 - [Sources](#sources)🔎
+
+- [Demo](#Demo)🎞
 - [License](#license)💳
 - [Contact](#contact)📩
-- [Deployed Site](#DeployedSite)📂
+- [Deployed Site](#DeployedSite)🧮
 - [Repository](#Repository)📂
 
 - [Tools](#Tools)🛠
@@ -87,7 +89,8 @@ Key features of the Note Taker application include:
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Contact <a name="contact"></a>
 You may contact me by rudasilljay@gmail.com
-
+## Demo <a name="Demo"></a>
+![Alt text](<Untitled_ Jul 5, 2023 3_49 PM.gif>)
 
 ## Deployed Site <a name="DeployedSite"></a>
 https://thewisesailor.github.io/Express.js-Note-Taker/ <br>
